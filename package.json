@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-mern",
+  "version": "1.0.0",
+  "description": "To Do List MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
